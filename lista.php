@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body{
+        text-align: center;
+        background-color: #e8dcfc;
+      }
+    </style>
 </head>
 <body>
     <h1>Bonecas</h1>
@@ -43,7 +49,7 @@
 </table>
 
     <br><br>
-<a href="index.php">Voltar</a>
+<a href="pagina_inicial.php">Voltar</a>
     
 </body>
 </html>

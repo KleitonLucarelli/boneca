@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background-color: #e8dcfc;
+    }
+</style>
 </head>
 <body>
 <form action="cadastrar_usuario_action.php" method="POST">
-    Digite o login: <input type="text" name="login">
+    Digite o login: <input required type="text" name="login">
     <br>
-    Digite a senha: <input type="text" name="senha">
+    Digite a senha: <input required type="text" name="senha">
     <br><br>
     <input type="submit" value="Cadastrar">
 </form>

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background-color: #e8dcfc;
+    }
+</style>
 </head>
 <body>
 
@@ -28,7 +32,7 @@
     }
 ?>  
 
-<a href="index.php">Voltar</a>
+<a href="pagina_inicial.php">Voltar</a>
     
 </body>
 </html>
